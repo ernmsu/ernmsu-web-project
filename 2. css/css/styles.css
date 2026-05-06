@@ -1,0 +1,66 @@
+/* Entire webpage background color */
+body {
+    background:  linear-gradient(to right, purple,  gray, green)
+}
+
+/* Headers font sizes & colors */
+h1 {
+    font-size: 20px;
+    color: black;
+}
+
+/* Paragraph font family, size, and color. */
+.circle {
+  background-color: purple;
+}
+
+.tetrahedron {
+  background-color: gray;
+}
+
+.square {
+  background-color: green;
+}
+
+p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 12px;
+    border-radius: 7px;
+    margin-bottom: 17px;
+}
+
+/* List Items & Links. */
+li{
+    font-size: 10px;
+    color: darkred;
+    margin-bottom: 8px;
+}
+
+.links{
+ list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  background-color: pink;   
+}
+
+a{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+/*Adjustments for screens < 400px*/
+@media screen and (max-width: 400px) {
+  
+img {
+  width: 100%;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-size: 25px;
+}
+}
