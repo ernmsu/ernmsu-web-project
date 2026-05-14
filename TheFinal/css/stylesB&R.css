@@ -1,0 +1,27 @@
+html, body { height: 100%; }
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("../images/recycle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: gray;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Adjustments for screens < 400px*/
+@media screen and (max-width: 400px) {
+  
+img {
+  width: 100%;
+}
+.links{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  font-size: 25px;
+}
+}
